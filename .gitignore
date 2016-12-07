@@ -1,0 +1,5 @@
+/dist/
+out/
+/bin
+/out
+*.iml
