@@ -114,7 +114,7 @@ public class LibroControlador extends MouseAdapter implements ActionListener {
 
             //Selecciono categoria.
             case "Categoria":
-                where = "WHERE cat.descripcion = like concat(?, '%')";
+                where = "WHERE cat.descripcion like concat(?, '%')";
                 break;
 
             //Selecciono titulo.

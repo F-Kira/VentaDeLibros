@@ -233,7 +233,6 @@ public class LibroABMC extends JFrame {
 
         //Componente de la fila 0 columna 4.
         conf.gridx = 4;
-        conf.anchor = GridBagConstraints.WEST;
 
         jbMostrarTodo = new JButton(new ImageIcon(getClass().getResource("iconos/todos.png")));
         jbMostrarTodo.setActionCommand("jbMostrarTodo");
