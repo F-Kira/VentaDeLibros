@@ -38,7 +38,7 @@ public class Seccion {
     public boolean equals (Object objeto) {
         if (objeto != null && objeto instanceof Seccion) {
             Seccion seccion = (Seccion)objeto;
-            if (seccion.getId() == id || seccion.getDescripcion() == descripcion)
+            if (seccion.getId() == id || seccion.getDescripcion().equals(descripcion))
                 return true;
         }
         return false;

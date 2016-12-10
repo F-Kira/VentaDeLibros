@@ -14,7 +14,7 @@ public class Main {
         try {
             /*
                Le configuro el LookAndFeel para que se adapte el diseño
-               del programa a la plataforama en la que se esta ejecutando.
+               del programa a la plataforma en la que se esta ejecutando.
              */
             setLookAndFeel(getSystemLookAndFeelClassName());
         } catch (Exception ex) {

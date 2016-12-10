@@ -25,7 +25,7 @@ import java.util.Date;
 public class LibroABMC extends JFrame {
     private JTabbedPane jtpLibro;
     private JLabel jlTitulo, jlDescripcion, jlAutor, jlFiltrar, jlSeccion, jlCategoria, jlFechaPubl;
-    private JButton jbGuardar, jbEliminar, jbCancelar, jbBuscar;
+    private JButton jbGuardar, jbEliminar, jbCancelar, jbBuscar, jbMostrarTodo;
     private JRadioButton jrbTitulo, jrbAutor, jrbSeccion, jrbCategoria;
     private JTextField jtfTitulo, jtfBuscar;
     private JComboBox <Autor> jcbAutor;
@@ -43,14 +43,13 @@ public class LibroABMC extends JFrame {
         setSize(600, 500);
         setTitle ("Operación de libro");
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         //Obtengo la referencia del controlador.
         this.controlador = controlador;
 
         //Inserto los paneles al TabbedPane.
         jtpLibro = new JTabbedPane();
-        jtpLibro.addChangeListener(controlador);
         jtpLibro.addTab("ABM", addTabABMLibro());
         jtpLibro.addTab("Consulta", addTabLibroConsulta());
 
@@ -138,7 +137,7 @@ public class LibroABMC extends JFrame {
         //Componente de la fila 2 columna 1.
         conf.gridy = 2;
 
-        jcbAutor = new JComboBox();
+        jcbAutor = new JComboBox<>();
         jpABMLibro.add (jcbAutor, conf);
 
         //Componente de la fila 3 columna 1.
@@ -153,7 +152,7 @@ public class LibroABMC extends JFrame {
 
         jdFechaPubl = new JDateChooser(new Date());
         jdFechaPubl.setDateFormatString("dd/MM/yyyy");
-        jdFechaPubl.setIcon(new ImageIcon(getClass().getResource("calendario.png")));
+        jdFechaPubl.setIcon(new ImageIcon(getClass().getResource("iconos/calendario.png")));
         jpABMLibro.add (jdFechaPubl, conf);
 
         //Componente de la fila 5 columna 1.
@@ -176,13 +175,15 @@ public class LibroABMC extends JFrame {
         jbGuardar.addActionListener(controlador);
 
         jbEliminar = new JButton("Eliminar");
-        jbEliminar.setEnabled(false);
         jbEliminar.setActionCommand("jbEliminar");
         jbEliminar.addActionListener(controlador);
 
         jbCancelar = new JButton("Cancelar");
         jbCancelar.setActionCommand("jbCancelar");
         jbCancelar.addActionListener(controlador);
+
+        //Desactivo los botones eliminar y guardar.
+        activarBotones(false);
 
         //Inicializo el panel jpBotones y inserto los botones.
         JPanel jpBotones = new JPanel (new FlowLayout(FlowLayout.RIGHT, 10, 10));
@@ -210,7 +211,7 @@ public class LibroABMC extends JFrame {
         //Componente de la fila 0 columna 0.
         conf.gridx = 0;
         conf.gridy = 0;
-        conf.gridwidth = 4;
+        conf.gridwidth = 3;
         conf.anchor = GridBagConstraints.WEST;
         conf.insets = new Insets(10, 20, 10, 10);
         conf.fill = GridBagConstraints.HORIZONTAL;
@@ -218,16 +219,28 @@ public class LibroABMC extends JFrame {
         jtfBuscar = new JTextField(25);
         jpBuscar.add (jtfBuscar, conf);
 
-        //Componente de la fila 0 columna 4.
-        conf.gridx = 4;
+        //Componente de la fila 0 columna 3.
+        conf.gridx = 3;
         conf.gridwidth = 1;
         conf.fill = GridBagConstraints.NONE;
         conf.insets = new Insets(10, 0, 10, 10);
 
-        jbBuscar = new JButton("Buscar");
+        jbBuscar = new JButton(new ImageIcon(getClass().getResource("iconos/buscar.gif")));
         jbBuscar.setActionCommand("jbBuscar");
+        jbBuscar.setToolTipText("Buscar registros.");
         jbBuscar.addActionListener(controlador);
         jpBuscar.add (jbBuscar, conf);
+
+        //Componente de la fila 0 columna 4.
+        conf.gridx = 4;
+        conf.anchor = GridBagConstraints.WEST;
+
+        jbMostrarTodo = new JButton(new ImageIcon(getClass().getResource("iconos/todos.png")));
+        jbMostrarTodo.setActionCommand("jbMostrarTodo");
+        jbMostrarTodo.setToolTipText("Mostrar todos los registros");
+        jbMostrarTodo.setEnabled(false);
+        jbMostrarTodo.addActionListener(controlador);
+        jpBuscar.add (jbMostrarTodo);
 
         //Componente de la fila 1 columna 0.
         conf.gridx = 0;
@@ -286,9 +299,13 @@ public class LibroABMC extends JFrame {
         conf.fill = GridBagConstraints.BOTH;
         conf.insets = new Insets (0, 10, 10,10);
 
-        jtLibro = new JTable(new Modelo(new String [] {
-                "Titulo", "Autor", "Categoria", "Sección", "Fecha de publicación"}
-        ));
+        String [] colums = {"Titulo", "Autor", "Categoria", "Sección", "Fecha de publicación"};
+        jtLibro = new JTable(new DefaultTableModel (colums, 0) {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        });
         jtLibro.addMouseListener(controlador);
         JScrollPane jspTablaLibro = new JScrollPane(jtLibro);
         jpConsultaLibro.add (jspTablaLibro, conf);
@@ -391,7 +408,7 @@ public class LibroABMC extends JFrame {
     public void insertarNuevasFilas (ArrayList <Libro> infoLibro) {
         limpiarTabla();
         libro = infoLibro;
-        Modelo modelo = (Modelo)jtLibro.getModel();
+        DefaultTableModel modelo = (DefaultTableModel)jtLibro.getModel();
         for (Libro registro : libro)
             modelo.addRow(registro.toArray());
 
@@ -403,7 +420,7 @@ public class LibroABMC extends JFrame {
      * Borra las filas del JTable.
      */
     public void limpiarTabla () {
-        Modelo modelo = (Modelo)jtLibro.getModel();
+        DefaultTableModel modelo = (DefaultTableModel)jtLibro.getModel();
         for (int i = modelo.getRowCount() - 1; i >= 0; i --)
             modelo.removeRow(i);
     }
@@ -411,7 +428,7 @@ public class LibroABMC extends JFrame {
     /**
      * Carga los comboBox de la pestaña ABM y la tabla de la pestaña Consulta.
      */
-    public void cargarDatos () {
+    private void cargarDatos () {
         ArrayList<Autor> autor = new AutorDAO().obtenerTodosLosAutores();
 
         for (Autor autorNombre : autor)
@@ -433,7 +450,7 @@ public class LibroABMC extends JFrame {
      */
     public void cargarTodosLosRegistros () {
         libro = new LibroDAO().obtenerTodosLosLibros();
-        Modelo modelo = (Modelo)jtLibro.getModel();
+        DefaultTableModel modelo = (DefaultTableModel)jtLibro.getModel();
         for (Libro registro : libro)
             modelo.addRow(registro.toArray());
 
@@ -462,23 +479,16 @@ public class LibroABMC extends JFrame {
      */
     public void cambiarPestania (int index) {
         jtpLibro.setSelectedIndex(index);
-        activarBotonEliminar (true);
+        activarBotones (true);
     }
 
-    public void activarBotonEliminar (boolean estado) {
+    public void activarBotones (boolean estado) {
         jbEliminar.setEnabled(estado);
+        jbCancelar.setEnabled(estado);
     }
 
-    class Modelo extends DefaultTableModel {
-
-        public Modelo (String [] colum) {
-            super (colum, 0);
-        }
-
-        @Override
-        public boolean isCellEditable(int row, int column) {
-            return false;
-        }
+    public JButton getJbMostrarTodo() {
+        return jbMostrarTodo;
     }
 }
 

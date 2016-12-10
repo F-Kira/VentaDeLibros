@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import static java.lang.System.err;
 
 public class CategoriaDAO {
-    private Conexion conexion = new Conexion();
     //Obtengo la conexión.
+    private Conexion conexion = new Conexion();
     private PreparedStatement preparedStatement = null;
 
     public ArrayList<Categoria> obtenerTodosLasCategorias () {

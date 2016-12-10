@@ -72,7 +72,7 @@ public class Libro {
      * @return Devuelve los datos en forma de array.
      */
     public String [] toArray () {
-        return new String [] {titulo, "" + autor.getIdAutor(), "" + categoria.getId(),
-                "" + seccion.getId(), "" + fechaPublicacion};
+        return new String [] {titulo, autor.getNombre(), categoria.getDescripcion(),
+                seccion.getDescripcion(), "" + fechaPublicacion};
     }
 }

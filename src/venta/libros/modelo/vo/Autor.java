@@ -48,7 +48,7 @@ public class Autor {
     public boolean equals (Object objeto) {
         if (objeto != null && objeto instanceof Autor) {
             Autor autor = (Autor)objeto;
-            if (autor.getIdAutor() == idAutor)
+            if (autor.getNombre().equals(nombre))
                 return true;
         }
         return false;

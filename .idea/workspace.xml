@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f20e34-4fe6-4c5f-9a63-75cda40303e3" name="Default" comment="" />
+    <list default="true" id="76f20e34-4fe6-4c5f-9a63-75cda40303e3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/venta/libros/vista/calendario.png" afterPath="$PROJECT_DIR$/src/venta/libros/vista/iconos/calendario.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" afterPath="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" afterPath="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/vista/Main.java" afterPath="$PROJECT_DIR$/src/venta/libros/vista/Main.java" />
+    </list>
     <ignored path="VentaLibrosUsados.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,7 +33,18 @@
     <favorites_list name="VentaLibrosUsados" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,16 +70,17 @@
         <option value="$PROJECT_DIR$/src/venta/libros/FGG.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/conexion/Conexion.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/AutorDAO.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/SeccionDAO.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/vista/Main.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/vista/TestBD.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/vista/Main.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" />
       </list>
     </option>
   </component>
@@ -100,33 +125,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VentaLibrosUsados" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VentaLibrosUsados" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\IntellijIDEAProjects\VentaLibrosUsados\src\venta\libros\vista\iconos" />
+      <recent name="C:\Users\Usuario\Documents\IntellijIDEAProjects\VentaLibrosUsados\src\venta\libros\vista\venta\libros\vista\iconos" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\IntellijIDEAProjects\VentaLibrosUsados\src\venta\libros\vista\iconos" />
       <recent name="C:\Users\Usuario\Documents\IntellijIDEAProjects\VentaLibrosUsados\src\venta\libros\vista" />
       <recent name="C:\Users\Usuario\Documents\IntellijIDEAProjects\VentaLibrosUsados\src\venta\libros\sql" />
     </key>
@@ -180,6 +202,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="venta.libros.vista.Prueba" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VentaLibrosUsados" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBD (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="venta.libros.vista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="venta.libros.vista.TestBD" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -436,16 +478,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestBD" />
       <item index="2" class="java.lang.String" itemvalue="Application.Prueba" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestBD (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Prueba" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestBD" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestBD (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Prueba" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestBD" />
       </list>
     </recent_temporary>
   </component>
@@ -472,33 +516,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26929134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29291338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49346405" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -523,55 +567,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -771,96 +766,287 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/TestBD.java" />
     <entry file="file://$PROJECT_DIR$/src/venta/libros/FGG.java" />
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1561">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/conexion/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/AutorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="202">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+        <state relative-caret-position="-104">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/SeccionDAO.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="193">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="114" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="114" />
+        <state relative-caret-position="193">
+          <caret line="631" column="30" selection-start-line="631" selection-start-column="30" selection-end-line="631" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/sql/LibroVentaScript.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
-          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="112" column="63" selection-start-line="111" selection-start-column="0" selection-end-line="112" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/TestBD.java" />
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/iconos/buscar.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1450" column="21" selection-start-line="1450" selection-start-column="21" selection-end-line="1450" selection-end-column="21" />
+          <folding>
+            <element signature="e#49777#49778#0" expanded="false" />
+            <element signature="e#49815#49816#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/conexion/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/SeccionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertarLibro#0;class#LibroDAO#0" expanded="false" />
+            <element signature="method#eliminarLibro#0;class#LibroDAO#0" expanded="false" />
+            <element signature="method#actualizarLibro#0;class#LibroDAO#0" expanded="false" />
+            <element signature="method#obtenerTodosLosLibros#0;class#LibroDAO#0" expanded="false" />
+            <element signature="method#obtenerUnLibro#0;class#LibroDAO#0" expanded="false" />
+            <element signature="method#cerrarTodo#0;class#LibroDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="method#Autor#0;class#Autor#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="439" column="28" selection-start-line="439" selection-start-column="28" selection-end-line="439" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;method#addTabABMLibro#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#addTabLibroConsulta#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#addTabLibroConsulta#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#getAtributoDeBusqueda#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#estaVacioTitulo#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#limpiarDatos#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#limpiarDatos#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#mostrarMensaje#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#mostrarMensaje#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#getLibro#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#getLibro#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#getAtributoDeBusq#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#getAtributoDeBusq#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#estaVacioBuscar#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#insertarNuevasFilas#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#insertarNuevasFilas#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#limpiarTabla#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#limpiarTabla#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#cargarDatos#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#cargarDatos#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#cargarTodosLosRegistros#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#cargarTodosLosRegistros#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#cargarRegistro#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#cargarRegistro#0;class#LibroABMC#0" expanded="false" />
+            <element signature="docComment;method#cambiarPestania#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#cambiarPestania#0;class#LibroABMC#0" expanded="false" />
+            <element signature="method#activarBotones#0;class#LibroABMC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+          <folding>
+            <element signature="docComment;class#LibroControlador#0" expanded="false" />
+            <element signature="method#LibroControlador#0;class#LibroControlador#0" expanded="false" />
+            <element signature="docComment;method#buscar#0;class#LibroControlador#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VentaLibrosUsados</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>VentaLibrosUsados</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

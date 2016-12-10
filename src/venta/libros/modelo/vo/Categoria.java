@@ -9,9 +9,8 @@ public class Categoria {
         this.descripcion = descripcion;
     }
 
-    public Categoria () {
-        //Constructor predeterminado.
-    }
+    //Constructor predeterminado.
+    public Categoria () {}
 
     public int getId() {
         return id;
@@ -39,7 +38,7 @@ public class Categoria {
     public boolean equals (Object objeto) {
         if (objeto != null && objeto instanceof Categoria) {
             Categoria categoria = (Categoria)objeto;
-            if (categoria.getId() == id || categoria.getDescripcion() == descripcion)
+            if (categoria.getId() == id || categoria.getDescripcion().equals(descripcion))
                 return true;
         }
         return false;

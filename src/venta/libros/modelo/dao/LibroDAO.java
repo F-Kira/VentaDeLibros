@@ -15,6 +15,11 @@ public class LibroDAO {
     private Conexion conexion = new Conexion();
     private PreparedStatement preparedStatement = null;
 
+    private final String consultaLibro = "SELECT li.id, li.titulo, li.descripcion, li.fecha_publicacion, cat.descripcion, " +
+                "sec.descripcion, au.descripcion FROM libro_info AS li INNER JOIN categoria AS cat ON " +
+                "cat.id = li.categoria INNER JOIN seccion AS sec ON sec.id = li.seccion INNER JOIN autor AS au " +
+                "ON au.id = li.autor";
+
     public boolean insertarLibro(Libro libro) {
         String query = "INSERT INTO libro_info (titulo, descripcion, categoria, fecha_publicacion, seccion, autor) " +
                 "VALUES (?,?,?,?,?,?)";
@@ -86,36 +91,36 @@ public class LibroDAO {
     }
 
     public ArrayList <Libro> obtenerTodosLosLibros () {
-        String query = "SELECT * FROM libro_info";
         ArrayList <Libro> libros = new ArrayList<>();
 
         try {
             Connection dbConnection = conexion.abrir();
-            preparedStatement = dbConnection.prepareStatement(query);
+            preparedStatement = dbConnection.prepareStatement(consultaLibro);
 
             ResultSet rs = 	preparedStatement.executeQuery();
             while (rs.next()) {
                 Libro libro = new Libro();
-                libro.setIdLibro(rs.getInt("id"));
-                libro.setTitulo(rs.getString("titulo"));
-                libro.setDescripcion(rs.getString("descripcion"));
-                libro.setFechaPublicacion(rs.getDate("fecha_publicacion"));
+                libro.setIdLibro(rs.getInt(1));
+                libro.setTitulo(rs.getString(2));
+                libro.setDescripcion(rs.getString(3));
+                libro.setFechaPublicacion(rs.getDate(4));
 
                 Categoria categoria = new Categoria ();
-                categoria.setId(rs.getInt("categoria"));
+                categoria.setDescripcion(rs.getString(5));
                 libro.setCategoria(categoria);
 
                 Seccion seccion = new Seccion ();
-                seccion.setId(rs.getInt("seccion"));
+                seccion.setDescripcion(rs.getString(6));
                 libro.setSeccion(seccion);
 
                 Autor autor = new Autor();
-                autor.setIdAutor(rs.getInt("autor"));
+                autor.setNombre(rs.getString(7));
                 libro.setAutor(autor);
 
                 libros.add(libro);
             }
         } catch (SQLException e) {
+            e.printStackTrace();
             err.println(e.getMessage());
         } finally {
             cerrarTodo();
@@ -123,46 +128,35 @@ public class LibroDAO {
         return libros;
     }
 
-    public ArrayList<Libro> obtenerUnLibro (String query, String atributoDeBusqueda) {
+    public ArrayList<Libro> obtenerUnLibro (String where, String atributoDeBusqueda) {
+        String query = String.format("%s %s", consultaLibro, where);
+
         ArrayList <Libro> libros = new ArrayList<>();
         try {
             Connection dbConnection = conexion.abrir();
             preparedStatement = dbConnection.prepareStatement(query);
 
-            //Realizo un comprobación para determinar si es un Integer o un String.
-            boolean esNumero = true;
-            int num = 0;
-            try {
-                num = Integer.parseInt(atributoDeBusqueda);
-            } catch (NumberFormatException ex) {
-                esNumero = false;
-            }
-
-            if (esNumero)
-                preparedStatement.setInt(1, num);
-            else
-                preparedStatement.setString(1, atributoDeBusqueda);
-
+            preparedStatement.setString(1, atributoDeBusqueda);
 
             ResultSet rs = 	preparedStatement.executeQuery();
             //Extraigo los datos.
             while (rs.next()) {
                 Libro libro = new Libro();
-                libro.setIdLibro(rs.getInt("id"));
-                libro.setTitulo(rs.getString("titulo"));
-                libro.setDescripcion(rs.getString("descripcion"));
-                libro.setFechaPublicacion(rs.getDate("fecha_publicacion"));
+                libro.setIdLibro(rs.getInt(1));
+                libro.setTitulo(rs.getString(2));
+                libro.setDescripcion(rs.getString(3));
+                libro.setFechaPublicacion(rs.getDate(4));
 
                 Categoria categoria = new Categoria ();
-                categoria.setId(rs.getInt("categoria"));
+                categoria.setDescripcion(rs.getString(5));
                 libro.setCategoria(categoria);
 
                 Seccion seccion = new Seccion ();
-                seccion.setId(rs.getInt("seccion"));
+                seccion.setDescripcion(rs.getString(6));
                 libro.setSeccion(seccion);
 
                 Autor autor = new Autor();
-                autor.setIdAutor(rs.getInt("autor"));
+                autor.setNombre(rs.getString(7));
                 libro.setAutor(autor);
 
                 libros.add(libro);
@@ -174,7 +168,6 @@ public class LibroDAO {
         }
         return libros;
     }
-
 
     private void cerrarTodo () {
         try {
