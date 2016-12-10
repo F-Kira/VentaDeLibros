@@ -49,10 +49,8 @@ public class LibroControlador extends MouseAdapter implements ActionListener {
                 else {
                     ArrayList<Libro> listLibro = buscar();
 
-                    if (!vista.getJbMostrarTodo().isEnabled() && vista.libro.size() != listLibro.size()) {
+                    if (!vista.getJbMostrarTodo().isEnabled() && vista.libro.size() != listLibro.size())
                         vista.getJbMostrarTodo().setEnabled(true);
-                        System.out.println ("Estoy dentro");
-                    }
 
                     vista.insertarNuevasFilas(listLibro);
                 }

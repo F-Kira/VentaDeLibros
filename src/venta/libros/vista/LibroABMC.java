@@ -237,7 +237,7 @@ public class LibroABMC extends JFrame {
 
         jbMostrarTodo = new JButton(new ImageIcon(getClass().getResource("iconos/todos.png")));
         jbMostrarTodo.setActionCommand("jbMostrarTodo");
-        jbMostrarTodo.setToolTipText("Mostrar todos los registros");
+        jbMostrarTodo.setToolTipText("Mostrar todos los registros.");
         jbMostrarTodo.setEnabled(false);
         jbMostrarTodo.addActionListener(controlador);
         jpBuscar.add (jbMostrarTodo);

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f20e34-4fe6-4c5f-9a63-75cda40303e3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/venta/libros/vista/calendario.png" afterPath="$PROJECT_DIR$/src/venta/libros/vista/iconos/calendario.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" afterPath="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/dao/CategoriaDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Libro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" afterPath="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" afterPath="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/venta/libros/vista/Main.java" afterPath="$PROJECT_DIR$/src/venta/libros/vista/Main.java" />
     </list>
     <ignored path="VentaLibrosUsados.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,12 +25,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="187">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibroABMC.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="239" column="66" selection-start-line="239" selection-start-column="66" selection-end-line="239" selection-end-column="66" />
+              <folding>
+                <element signature="docComment;method#addTabABMLibro#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#addTabLibroConsulta#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#getAtributoDeBusqueda#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#estaVacioTitulo#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#limpiarDatos#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#limpiarDatos#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#mostrarMensaje#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#mostrarMensaje#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#getLibro#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#getLibro#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#getAtributoDeBusq#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#getAtributoDeBusq#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#estaVacioBuscar#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#insertarNuevasFilas#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#insertarNuevasFilas#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#limpiarTabla#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#limpiarTabla#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#cargarDatos#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#cargarDatos#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#cargarTodosLosRegistros#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#cargarTodosLosRegistros#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#cargarRegistro#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#cargarRegistro#0;class#LibroABMC#0" expanded="false" />
+                <element signature="docComment;method#cambiarPestania#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#cambiarPestania#0;class#LibroABMC#0" expanded="false" />
+                <element signature="method#activarBotones#0;class#LibroABMC#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,9 +106,9 @@
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Seccion.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Autor.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/dao/LibroDAO.java" />
-        <option value="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/modelo/vo/Categoria.java" />
         <option value="$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java" />
+        <option value="$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java" />
       </list>
     </option>
   </component>
@@ -125,14 +153,75 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venta.libros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vista" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venta.libros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VentaLibrosUsados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venta.libros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,7 +605,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,13 +615,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26929134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26929134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49346405" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,6 +631,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -805,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="112" column="63" selection-start-line="111" selection-start-column="0" selection-end-line="112" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,15 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insertarLibro#0;class#LibroDAO#0" expanded="false" />
-            <element signature="method#eliminarLibro#0;class#LibroDAO#0" expanded="false" />
-            <element signature="method#actualizarLibro#0;class#LibroDAO#0" expanded="false" />
-            <element signature="method#obtenerTodosLosLibros#0;class#LibroDAO#0" expanded="false" />
-            <element signature="method#obtenerUnLibro#0;class#LibroDAO#0" expanded="false" />
-            <element signature="method#cerrarTodo#0;class#LibroDAO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,20 +967,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="method#Autor#0;class#Autor#0" expanded="false" />
+            <element signature="docComment;class#LibroControlador#0" expanded="false" />
+            <element signature="method#LibroControlador#0;class#LibroControlador#0" expanded="false" />
+            <element signature="docComment;method#buscar#0;class#LibroControlador#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/LibroABMC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="406">
+          <caret line="239" column="66" selection-start-line="239" selection-start-column="66" selection-end-line="239" selection-end-column="66" />
           <folding>
             <element signature="docComment;method#addTabABMLibro#0;class#LibroABMC#0" expanded="false" />
             <element signature="docComment;method#addTabLibroConsulta#0;class#LibroABMC#0" expanded="false" />
-            <element signature="method#addTabLibroConsulta#0;class#LibroABMC#0" expanded="false" />
             <element signature="docComment;method#getAtributoDeBusqueda#0;class#LibroABMC#0" expanded="false" />
             <element signature="docComment;method#estaVacioTitulo#0;class#LibroABMC#0" expanded="false" />
             <element signature="docComment;method#limpiarDatos#0;class#LibroABMC#0" expanded="false" />
@@ -937,26 +1022,6 @@
             <element signature="method#cambiarPestania#0;class#LibroABMC#0" expanded="false" />
             <element signature="method#activarBotones#0;class#LibroABMC#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/controlador/LibroControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding>
-            <element signature="docComment;class#LibroControlador#0" expanded="false" />
-            <element signature="method#LibroControlador#0;class#LibroControlador#0" expanded="false" />
-            <element signature="docComment;method#buscar#0;class#LibroControlador#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/venta/libros/vista/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
