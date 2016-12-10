@@ -419,9 +419,9 @@ public class LibroABMC extends JFrame {
      * Borra las filas del JTable.
      */
     public void limpiarTabla () {
-        DefaultTableModel modelo = (DefaultTableModel)jtLibro.getModel();
-        for (int i = modelo.getRowCount() - 1; i >= 0; i --)
-            modelo.removeRow(i);
+        //Le indico cantidad de filas de la tabla a cero.
+        if (jtLibro.getRowCount() != 0)
+            ((DefaultTableModel) jtLibro.getModel()).setNumRows(0);
     }
 
     /**
